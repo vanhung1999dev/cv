@@ -5,7 +5,7 @@
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
-
+\usepackage{xcolor}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -21,6 +21,7 @@
 \usepackage{graphicx}%\setmainfont{Times New Roman}
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
+\usepackage[letterpaper,top=1.5in,bottom=1.5in,left=1.0in,right=1.0in]{geometry}
 \input{glyphtounicode}
 
 \RequirePackage{tikz}
@@ -73,7 +74,7 @@
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
 \addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.4in}
+\addtolength{\textheight}{8.0in}
 \urlstyle{same}
 
 \definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
@@ -158,78 +159,42 @@
 
 
 \begin{center}
-    {\huge Full Name} \\ \vspace{2pt} 
-    {+1 (xxx) xxx xxxx} ~ 
-    \small{-}
-    \href{[url to portfolio]}{\color{blue}{Portfolio}} ~ 
-    \small{-}
-    \href{mailto:[enter your email id]}{\color{blue}{xxxx@gmail.com}} ~ 
-    \small{-}
-    \href{[url to linkedin profile]}{ \color{blue}{linkedin.com/in/username}}  ~
-    \small{-}
-    \href{[url to github profile]}{ \color{blue}{github.com/username}} ~
-    \vspace{-7pt}
+    {\huge NGUYEN VAN HUNG} \\ \vspace{6pt}
+    
+    \href{tel:+84971015832}{\textcolor{blue}{+84 97 101 5832}} \hspace{10pt} \textbar \hspace{10pt}
+    \href{mailto:vanhung1999dev@gmail.com}{\textcolor{blue}{Github}} \hspace{10pt} \textbar \hspace{10pt}
+    \href{https://www.linkedin.com/in/hungnv1999}{\textcolor{blue}{LinkedIn}} \hspace{10pt} \textbar \hspace{10pt}
+    \href{https://github.com/vanhung1999dev}{\textcolor{blue}{GitHub}}
+    \vspace{-2pt}
 \end{center}
-
-%-----------EDUCATION-----------
-\section{\color{airforceblue}EDUCATION}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University 1}{Location, State, USA}
-      {Degree and Specialization}{Month Year - Month Year}
-    \vspace{-4pt}
-     \resumeSubheading
-      {University 2}{Location, State, USA}
-      {Degree and Specialization}{Month Year - Month Year}
-  \resumeSubHeadingListEnd
-  \vspace{-10pt}
-
-%-----------PROGRAMMING SKILLS-----------
-\section{\color{airforceblue}TECHNICAL SKILLS}
- \begin{itemize}[leftmargin=0in, label={}]
-    \small{\item{
-     \textbf{\normalsize{Programming Languages:}}{ \normalsize{Python, C++}} \\
-      \vspace{1.2pt}
-      
-     \textbf{\normalsize{Libraries and Tools:}}{ \normalsize{PyTorch,  Sklearn, Pandas, Numpy, OpenCV, Git, Docker}} \\
-      \vspace{1.2pt}
-      
-     \textbf{\normalsize{ML Architectures:}}{ \normalsize{CNN, YOLO, Transformers(BERT, LSTM), RAFT}}
-
-     % copy and paste above textbf block to add more 
-     }}
- \end{itemize}
- \vspace{-16pt}
  
  %-----------EXPERIENCE-----------
 \section{\color{airforceblue}WORK EXPERIENCE}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Job 1 Title}{} 
-      {Company Name, State, Country}{Month Year - Month Year}
+      {Software Engineer}{} 
+      {VMO, Ha Noi, Viet Nam}{Jun 2022 - Present}
       \resumeItemListStart
-            \resumeItem{\normalsize{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eget nunc ultricies congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.}}
-            \resumeItem{\normalsize{nteger hendrerit semper velit, non vehicula nibh feugiat nec. Vivamus nec consequat nisi. Suspendisse potenti. Sed consectetur elit sed aliquam eleifend.}}  
-            \resumeItem{\normalsize{Sed nec quam et urna placerat placerat. Aenean at mi id nunc venenatis feugiat}}  
+            \resumeItem{\normalsize{Built a secure, scalable vulnerability scanning SaaS for \textcolor{black}{{\textbf{10K}}} tenants using MongoDB isolation, and real-time pipelines by CDC event, cutting query latency from \textcolor{black}{{\textbf{15}}} to \textcolor{black}{{\textbf{~1}}}.}}
+            \resumeItem{\normalsize{Implemented async Kafka messaging to support \textcolor{black}{{\textbf{80K}}} repo scans and prevent Kubernetes crashes from resource overload and OOM.}}  
+            \resumeItem{\normalsize{Worked closely with multiple cross-functional teams to collect requirements, shape feature scope, and maintain alignment with strategic business objectives.}}
+             \resumeItem{\normalsize{Mentored junior developers to accelerate onboarding, improve code quality, and foster professional growth.}} 
       \resumeItemListEnd  
 
     \resumeSubheading
-      {Job 2 Title}{} 
-      {Company Name, State, Country}{Month Year - Month Year}
+      {Software Engineer}{} 
+      {FPT, Ha Noi, Viet Nam}{Jun 2021 - Jun 2022}
       \resumeItemListStart
-            \resumeItem{\normalsize{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eget nunc ultricies congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.}}
-            \resumeItem{\normalsize{nteger hendrerit semper velit, non vehicula nibh feugiat nec. Vivamus nec consequat nisi. Suspendisse potenti. Sed consectetur elit sed aliquam eleifend.}}  
-            \resumeItem{\normalsize{Sed nec quam et urna placerat placerat. Aenean at mi id nunc venenatis feugiat}}  
+            \resumeItem{\normalsize{Participated in implementing and delivering end-to-end healthcare projects using Microservice Architecture, reducing bug rate by \textcolor{black}{{\textbf{70\%}}} in 3 months by improving code quality with SonarQube and achieving  \textcolor{black}{{\textbf{80\%}}}  unit test coverage.}}
       \resumeItemListEnd  
 
     \resumeSubheading
-      {Job 3 Title}{} 
-      {Company Name, State, Country}{Month Year - Month Year}
+      {Software Engineer}{} 
+      {TuyenSinh247, Ha Noi, Viet Nam}{Nov 2019 - Apr 2021}
       \resumeItemListStart
-            \resumeItem{\normalsize{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eget nunc ultricies congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.}}
-            \resumeItem{\normalsize{nteger hendrerit semper velit, non vehicula nibh feugiat nec. Vivamus nec consequat nisi. Suspendisse potenti. Sed consectetur elit sed aliquam eleifend.}}  
-            \resumeItem{\normalsize{Sed nec quam et urna placerat placerat. Aenean at mi id nunc venenatis feugiat}}  
+            \resumeItem{\normalsize{Implemented a resource-efficient video pipeline on a 2-core server to improve batch reliability and reduce database storage by \textcolor{black}{{\textbf{5\%}}} by processing \textcolor{black}{{\textbf{25GB+}}} uploads with Multer, Gzip, SQS FIFO, and Node-Cron orchestration for S3 archiving.}}
+            \resumeItem{\normalsize{Collaborated closely with frontend and video teams to clarify expectations and ensure smooth integration.}}  
       \resumeItemListEnd  
 
     % copy and paste above resumeSubheading block to add more 
@@ -241,53 +206,45 @@
 \section{\color{airforceblue}PROJECTS}    
     \resumeItemListStart
         \vspace{0.5pt}
-        \resumeItem{\normalsize{\textbf{Project 1 title}, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eget nunc ultricies congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.} \href{[url to project github repo]}{\color{blue}\underline{GitHub}}}
+        \resumeItem{\normalsize{\textbf{Distribute CAS}, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eget nunc ultricies congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.} \href{[url to project github repo]}{\color{blue}\underline{GitHub}}}
         \vspace{-5pt}
         
-        \resumeItem{\normalsize{\textbf{Project 2 title}, Vivamus nec consequat nisi. Suspendisse potenti. Sed consectetur elit sed aliquam eleifend. Sed nec quam et urna placerat placerat.} \href{[url to project demo]}{\color{blue}\underline{Try it!}}}
-        \vspace{-5pt}
+        \resumeItem{\normalsize{\textbf{Redis Server}, Vivamus nec consequat nisi. Suspendisse potenti. Sed consectetur elit sed aliquam eleifend. Sed nec quam et urna placerat placerat.} \href{[url to project demo]}{\color{blue}\underline{Try it!}}}
+         \vspace{-5pt}
 
-        \resumeItem{\normalsize{\textbf{Project 3 title}, Cras dignissim justo vitae dui vehicula, sed malesuada risus semper. Maecenas suscipit sapien nec ultrices consequat. Sed volutpat justo id magna rhoncus, nec ultricies libero ultrices. Sed malesuada efficitur sapien, a ultricies nulla posuere nec.}  \href{[url to github repo]}{\color{blue}\underline{GitHub}}}
-        \vspace{-5pt}
+         \resumeItem{\normalsize{\textbf{Redis Server}, Vivamus nec consequat nisi. Suspendisse potenti. Sed consectetur elit sed aliquam eleifend. Sed nec quam et urna placerat placerat.} \href{[url to project demo]}{\color{blue}\underline{Try it!}}}
+         \vspace{-5pt}
 
-        \resumeItem{\normalsize{\textbf{Project 4 title}, Sed sagittis consectetur eros, eu auctor felis lobortis vel. Sed eu risus at nunc viverra finibus. Curabitur eu quam libero. Sed euismod ante in tellus efficitur, sit amet accumsan mi sodales.} \href{[url to project demo]}{\color{blue}\underline{Try it!}}}
-
-        % copy and paste above resumeItem block to add more 
-        
-    \resumeItemListEnd  
-   
+         \resumeItem{\normalsize{\textbf{Redis Server}, Vivamus nec consequat nisi. Suspendisse potenti. Sed consectetur elit sed aliquam eleifend. Sed nec quam et urna placerat placerat.} \href{[url to project demo]}{\color{blue}\underline{Try it!}}}
+    \resumeItemListEnd 
+    
  \vspace{-12pt}
-%
 
-%-----------Publications---------------
-\section{\color{airforceblue}PUBLICATIONS}
-    
-  \resumeItemListStart
-    \resumeItem{\normalsize{Add Publication details here}}\href{[url link to publication]}{\color{blue}\underline{Link}}
-    \vspace{-5pt}
-    
-    \resumeItem{\normalsize{Add Publication details here}}\href{[url link to publication]}{\color{blue}\underline{Link}}
-    \vspace{-5pt}
+ %-----------PROGRAMMING SKILLS-----------
+\section{\color{airforceblue}TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Programming Languages:}}{ \normalsize{ExpressJS, Nestjs, Golang, Typescript}} \\
+      \vspace{1.2pt}
+      \textbf{\normalsize{Libraries and Tools:}}{ \normalsize{Html, Css, Javascript, React, SocketIO,Multer, Nginx, Oauth2, SAML,  Passport}} \\
+      \vspace{1.2pt}
+      \textbf{\normalsize{Database:}}{ \normalsize{MongoDB, Mysql, Postgres, Redis, Elastic Search}} \\
+      \vspace{1.2pt}
+     \textbf{\normalsize{Cloud/Container/CICD}}{ \normalsize{EC2, S3, Route53, LoadBalancer, CloudFront, SQS, SMS,  Docker, GitlabCI}}
+     % copy and paste above textbf block to add more 
+     }}
+ \end{itemize}
+ \vspace{-12pt}
 
-    % copy and paste above resumeItem block to add more 
-    
-  \resumeItemListEnd 
-      
-\vspace{-8pt}
+ %-----------EDUCATION-----------
+\section{\color{airforceblue}EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ha Noi University Of Industry}{Ha Noi, Viet Nam}
+      {Information Technology}{July 2017 - Jun 2021}
+    \vspace{-4pt}
+  \resumeSubHeadingListEnd
+  \vspace{-10pt}
 
-%-----------EXTRACURRICULAR---------------
-\section{\color{airforceblue}EXTRACURRICULAR ACTIVITIES}
-    
-      \resumeItemListStart
-        \resumeItem{\normalsize{\textbf{Event Coordinator} in univesrity Club - {Month Year - Month Year} }} 
-        \vspace{-5pt}
-        
-        \resumeItem{\normalsize{\textbf{Executive member} in Robotics Club - } {Month Year - Month Year}}    
-        \vspace{-5pt}
-
-        % copy and paste above resumeItem block to add more 
-      \resumeItemListEnd 
-      
-\vspace{-12pt}
-
+  
 \end{document}
